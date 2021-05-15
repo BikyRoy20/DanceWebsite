@@ -1,0 +1,49 @@
+extends base.pug
+
+block scripts
+  script(src='/static//index.js')
+
+block style 
+    style
+        include ../static/style.css
+
+block content 
+    section#introsection 
+        div            Welcome to Roy Dance Academy
+        div.small          Eat Sleep Dance Repeat 
+        
+    section#missionsection
+        h2    Our Mission
+        div.card 
+            h3          Dance Perfection
+            div.card-box    
+                div.card-img
+                    img(src="https://danceavenueinc.files.wordpress.com/2016/08/black-dancer-transparent.png")
+                 
+                div.card-content
+                        p best dance academy to enhance your dancing skills
+            
+        div.card 
+            h3         Dance the way you like
+            div.card-box     
+                div.card-img
+                    img(src="https://files.oyebesmartest.com/uploads/preview/pole-dance-lady-png-black-&-white-(9)00epfqr1pe.png")
+                 
+                div.card-content
+                    p  Come and dance as you want and shake your legs
+        div.card 
+            h3          Experts choreoghrapher
+            div.card-box     
+                div.card-img
+                    img(src="https://cdn.pixabay.com/photo/2018/04/13/10/54/silhouette-3316203__340.png")
+                 
+                div.card-content
+                    p  Learn fast with our expert choreographers
+    section#sponsorsection 
+        h2    Our Sponsors
+            
+            div#sponsors
+                img(src="https://getmobilereset.com/wp-content/uploads/2020/08/Black-Apple-Logo-PNG-Image.png" alt="spons-image")
+                img(src="https://www.pinclipart.com/picdir/middle/459-4599907_skype-watermark-png-skype-logo-clipart.png" alt="spons-image")
+                img(src="https://download.logo.wine/logo/Hewlett-Packard/Hewlett-Packard-Logo.wine.png" alt="spons-image")
+                img(src="https://nabshow.com/2020/wp-content/uploads/sites/3/2020/02/intel.png?w=640?w=135" alt="spons-image")

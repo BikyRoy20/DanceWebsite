@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+#navbar{
+    background-color: rgb(189, 216, 149);
+    padding: 20px 30px;
+}
+ul{
+    display:flex;
+    flex-direction:row;
+
+}
+li{
+    list-style: none;
+    padding:30px 20px;
+}
+li a{
+    text-decoration:none;
+    color:black;
+    font-weight:bold;
+    font-size:20px;
+    font-family: arial;
+}
+li a:hover{
+    color: red;
+}
+#introsection{
+    background: center/ cover no-repeat url(https://static01.nyt.com/images/2020/12/11/arts/11swan-5/11swan-5-mobileMasterAt3x.jpg);
+    opacity:0.7;
+    padding-bottom:130px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    font-size:3rem;
+    font-family:   zendots;
+    font-weight: bold;
+    color:yellow;
+    height:300px;
+    background-color: white;
+}
+#logo img{
+    height:80px;
+    filter:invert(1);
+}
+#introsection div.small{
+    font-size:2rem;
+    color: yellow;
+}
+#missionsection{
+    height:300px;
+    margin:auto;
+    width:70%;
+    
+}
+#missionsection h2{
+    text-align:center;
+    padding-top:12px;
+    font-weight:20px;
+}
+
+.card{
+    display:inline-block;
+    border: 2px solid black;
+    border-radius:10px;
+    width:28%;
+    margin: 30px 24px;
+    height: 200px;
+    background-color: rgb(198, 201, 67);
+    
+}
+.card h3{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding-top:8px;
+}
+.card-box{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+ 
+}
+.card-img{
+    height:100px;
+    padding: 15px 15px;
+    margin: 15px 8px;
+}
+.card-img img{
+    height:inherit;
+    padding: 0 14px;
+}
+.card-content{
+    padding-top:0 5px;
+    font-family:georgia;
+}
+.card-content p{
+    font-size: 15px;
+    font-family:georgia;
+}
+#sponsorsection{
+    height:300px;
+    background-color: rgb(223, 188, 194);
+}
+#sponsorsection h2{
+    font-size:25px;
+    text-align:center;
+    padding-top:12px;
+}
+#sponsors{
+    display:flex;
+    flex-direction:row;
+}
+#sponsors img{
+    height:120px;
+    padding:60px 80px;
+}
+#footer{
+    height:50px;
+    background-color: rgb(107, 129, 197);
+}
+#footer h3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:10px;
+}
